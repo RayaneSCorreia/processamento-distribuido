@@ -134,7 +134,6 @@ Monitora tabela Postgres e envia eventos CDC ao Kafka.
   Script                           Descrição
   -------------------------------- -----------------------------------------
   `input_strava_init.sql`          Cria & insere dados fake
-
   `cdc_create_events_change.sql`   Configura estruturas auxiliares para CDC
   --------------------------------------------------------------------------
 
