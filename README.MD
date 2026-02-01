@@ -12,8 +12,6 @@ funcionamento de um pipeline de CDC e input em bucket e banco de dados relaciona
 -   [🚀 Como Executar o Projeto](#-como-executar-o-projeto)
 -   [🧪 Como Testar os Eventos CDC](#-como-testar-os-eventos-cdc)
 -   [📦 Conectores Kafka Connect](#-conectores-kafka-connect)
--   [🗄️ Scripts SQL](#%EF%B8%8F-scripts-sql)
--   [📝 Exemplos de Eventos](#-exemplos-de-eventos-cdc)
 -   [⚠️ Observações Importantes](#%EF%B8%8F-observações-importantes)
 -   [👩‍💻 Autora](#-autora)
 
