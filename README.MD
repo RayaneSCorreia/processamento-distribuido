@@ -1,4 +1,4 @@
-# 🏃‍♀️CDC Strava -- Pipeline de Change Data Capture com Kafka, Debezium, Spark, Postgres e MinIO
+# Pipeline de Change Data Capture com Kafka, Debezium, Spark, Postgres e MinIO
 
 Projeto educacional construído para demonstrar, na prática, o
 funcionamento de um pipeline de CDC e input em bucket e banco de dados relacional usando dados fake do Strava.
