@@ -38,7 +38,6 @@ Data Capture) e input de eventos aplicando:
 
 # 📁 Estrutura do Repositório
 
-    CDC-Strava/
     ├── bash_exec/
     │   ├── 01-exec_init.sh
     │   ├── 02-exec_debezium.sh
