@@ -62,8 +62,6 @@ Data Capture) e input de eventos aplicando:
     │   ├── kafka_to_postgres.py        
     │
     ├── docker-compose.yml
-    ├── environment.yml
-    ├── requirements.txt
     ├── Dockerfile.connect
     └── README.md
 
