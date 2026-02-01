@@ -84,19 +84,19 @@ Data Capture) e input de eventos aplicando:
 
 # 🚀 Como Executar o Projeto
 
-## 1️⃣ Subir o ambiente
+Subir o ambiente
+
+docker compose up -d
+
+## 1️⃣ Criar tabelas fake
 
     bash bash_exec/01-exec_init.sh
 
-ou:
-
-    docker compose up -d
-
-## 2️⃣ Popular dados fake
+## 2️⃣ Fazer modificações nos dados
 
     bash bash_exec/03-exec_cdc.sh
 
-## 3️⃣ Criar conector Debezium
+## 3️⃣ Criar conector Debezium para gerar um ambiente de CDC
 
     bash bash_exec/02-exec_debezium.sh
 
