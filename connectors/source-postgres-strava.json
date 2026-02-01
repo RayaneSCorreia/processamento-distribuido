@@ -1,0 +1,29 @@
+{
+  "name": "source-postgres-strava",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "tasks.max": "1",
+
+    "topic.prefix": "strava_source",
+
+    "database.hostname": "postgres_source_cdc_strava",
+    "database.port": "5432",
+    "database.user": "postgres",
+    "database.password": "postgrespassword",
+    "database.dbname": "strava_source",
+
+    "plugin.name": "pgoutput",
+    "slot.name": "strava_cdc_slot",
+    "publication.autocreate.mode": "all_tables",
+    
+    "schema.include.list": "public",
+    "table.include.list": "public.strava_activities",
+
+    "snapshot.mode": "initial",
+
+    "tombstones.on.delete": "false",
+    "include.schema.changes": "false",
+
+    "decimal.handling.mode": "double",
+    "time.precision.mode": "adaptive_time_microseconds" }
+}
